@@ -46,7 +46,6 @@ function WLTimer (d = 0, h = 0, i = 0, s = 0) {
     this.auto_add_s = function (add, interval) {
         var self = this;
         self.auto_id.add.s = setInterval(function() {
-            console.log(self);
             self.add_s(add);
         }, interval);
     };
