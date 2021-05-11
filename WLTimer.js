@@ -50,9 +50,6 @@ function WLTimer (d = 0, h = 0, i = 0, s = 0) {
             self.add_s(add);
         }, interval);
     };
-    this.reduce_s = function (second) {
-        if(second)
-    },
     this.add_i = function (minute) {
         if(minute >= 1440){
             add_day = Math.floor(minute/1440);
